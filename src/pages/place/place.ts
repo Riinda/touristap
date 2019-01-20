@@ -22,12 +22,13 @@ export class PlacePage {
   }
 
   ionViewDidLoad() {
-   this.http.post("http://10.108.35.140/touristAppApi/get-place.php",{}).subscribe((res:any)=>){
-   this.data = res.data;
-  })
-  
+   this.http.post("http://10.108.35.140/touristAppApi/get-place.php",{}).subscribe((res:any)=>{
+    this.data = res.data;
+   })
+   
   }
   show() {
     this.navCtrl.push(PlaceDetailPage)
 
+  }
 }

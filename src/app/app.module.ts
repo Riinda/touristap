@@ -7,12 +7,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PlacePage } from '../pages/place/place';
+import { PlaceDetailPage } from '../pages/place-detail/place-detail';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    PlacePage
+    PlacePage,
+    PlaceDetailPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { PlacePage } from '../pages/place/place';
   entryComponents: [
     MyApp,
     HomePage,
-    PlacePage
+    PlacePage,
+    PlaceDetailPage
   ],
   providers: [
     StatusBar,
