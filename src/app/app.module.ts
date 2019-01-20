@@ -14,7 +14,7 @@ import { PlaceDetailPage } from '../pages/place-detail/place-detail';
     MyApp,
     HomePage,
     PlacePage,
-    PlaceDetailPage
+    PlaceDetailPage //
   ],
   imports: [
     BrowserModule,
